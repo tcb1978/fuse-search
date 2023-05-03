@@ -1,0 +1,70 @@
+$list-padding: 0;
+$list-margin: 0;
+$list-item-margin: 10px;
+$card-bg: #040a2b;
+$card-color: #fff;
+$card-font: Helvetica, Arial, Sans-Serif;
+$card-padding: 20px;
+$card-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+$card-radius: 15px;
+$card-title-size: 20px;
+$card-title-margin: 0;
+$card-title-margin-bottom: 10px;
+$card-text-margin: 0;
+$card-text-margin-bottom: 10px;
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: $list-margin;
+  padding: $list-padding;
+  list-style: none;
+  overflow: scroll;
+
+  .list-item {
+    flex: 1 0 calc(25% - #{$list-item-margin} * 2);
+    margin: $list-item-margin;
+  }
+
+  .card {
+    background-color: $card-bg;
+    border-radius: $card-radius;
+    color: $card-color;
+    padding: $card-padding;
+    box-shadow: $card-shadow;
+    font-family: $card-font;
+
+    h3 {
+      font-size: $card-title-size;
+      margin: $card-title-margin;
+      margin-bottom: $card-title-margin-bottom;
+    }
+
+    p {
+      margin: $card-text-margin;
+      margin-bottom: $card-text-margin-bottom;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .list {
+      padding-top: 3rem;
+    }
+    .list-item {
+      flex: 1 0 100%;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    max-height: 90vh;
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    max-height: 80vh;
+  }
+
+  @media (min-width: 1200px) {
+    max-height: 70vh;
+  }
+}
+

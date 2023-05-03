@@ -29,16 +29,6 @@ import { SearchProvider } from './context/search-context.jsx';
 //      * @returns JSX
 //      * @memberof App
 //     */
-//     render() {
-//         return (
-//             <div className="App">
-//                 <Menu />
-//                 <Home />
-//             </div>
-//         );
-//     }
-
-// }
 
 function App() {
 	return (
