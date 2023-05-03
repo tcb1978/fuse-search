@@ -401,3 +401,22 @@
 [2/5/2023 -- 22:16]  Scripts ran on main.js
 [2/5/2023 -- 22:16]  Sass ran on files
 [2/5/2023 -- 22:17]  Sass ran on files
+[2/5/2023 -- 22:25]  Info task started
+[2/5/2023 -- 22:25]  Mustache Templates ran on the HTML files
+[2/5/2023 -- 22:25]  Scripts ran on main.js
+[2/5/2023 -- 22:25]  Sass ran on files
+[3/5/2023 -- 9:38]  Info task started
+[3/5/2023 -- 9:38]  Mustache Templates ran on the HTML files
+[3/5/2023 -- 9:38]  Scripts ran on main.js
+[3/5/2023 -- 9:38]  Sass ran on files
+[3/5/2023 -- 9:39]  Scripts ran on main.js
+[3/5/2023 -- 9:40]  Scripts ran on main.js
+[3/5/2023 -- 9:43]  Scripts ran on main.js
+[3/5/2023 -- 9:44]  Scripts ran on main.js
+[3/5/2023 -- 9:46]  Scripts ran on main.js
+[3/5/2023 -- 9:47]  Scripts ran on main.js
+[3/5/2023 -- 9:49]  Scripts ran on main.js
+[3/5/2023 -- 9:50]  Scripts ran on main.js
+[3/5/2023 -- 9:52]  Scripts ran on main.js
+[3/5/2023 -- 9:53]  Scripts ran on main.js
+[3/5/2023 -- 9:53]  Scripts ran on main.js
